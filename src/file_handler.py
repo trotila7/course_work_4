@@ -1,7 +1,8 @@
 import json
-import os
 import logging
+import os
 from typing import List
+
 from src.vacancy import Vacancy
 
 logger = logging.getLogger(__name__)

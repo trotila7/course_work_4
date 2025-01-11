@@ -1,8 +1,9 @@
 # класс для работы с API платформы hh.ru
-import requests
-import os
 import logging
+import os
 from abc import ABC, abstractmethod
+
+import requests
 
 logger = logging.getLogger(__name__)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

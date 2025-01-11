@@ -1,8 +1,9 @@
-import os
 import logging
+import os
+
 from src.api import HeadHunterAPI
-from src.vacancy import Vacancy, VacancyManager
 from src.file_handler import FileHandler
+from src.vacancy import Vacancy, VacancyManager
 
 logger = logging.getLogger(__name__)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
